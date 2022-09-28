@@ -16,6 +16,12 @@
           },
           "items": [
             {
+              ":type": "custom:rich-text",
+              "label": {
+                "value": "Welcome to <b>Personal Banking</b>"
+              }
+            },
+            {
               "name": "mobileNumber",
               "fieldType": "text-input",
               "type": "string",

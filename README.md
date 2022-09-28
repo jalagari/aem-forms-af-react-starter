@@ -31,6 +31,18 @@ Sample Form JSON is available at [loan.form.json](/src/forms/loan-form-wizard.fo
 
 ## Custom Component.
 
+### RichText
+
+Component to render rich text provided in form json.
+```
+ {
+    ":type": "custom:rich-text",
+    "label": {
+    "value": "Welcome to <b>Personal Banking</b>"
+    }
+}
+```
+
 ### Slider
 
 Instead of using default numeric stepper we can use slider for capturing number value and use `:type` to use component in Form JSON
