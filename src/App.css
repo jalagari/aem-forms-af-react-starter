@@ -1,0 +1,84 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header-logo {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  padding-left: 22px;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+form {
+  width: 100%;
+}
+
+#root>div {
+  background-color: #fff;
+}
+
+.app {
+  /* padding: 0 300px; */
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.text {
+  text-align: center;
+  color: #131317;
+}
+
+.text-field-bg {
+  background: #f6f6f6;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 10px;
+  min-height: 60px;
+}
+
+.field label {
+  color: #131317;
+  font-size: 14px;
+}
+
+.custom-button {
+  background: #0052CC;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  margin-top: 12px;
+  padding: 16px;
+  margin-right: -32px;
+  height: 60px;
+}
+
+.text-loan {
+  border: 1px dotted #0052CC;
+  text-align: right;
+  background: #fff;
+  padding: 16px;
+  margin-right: -32px;
+  font-size: 16px;
+  color: #0052CC;
+  height: 60px;
+  border-radius: 8px;
+}
+
+.text-loan-amount {
+  background: #0052CC;
+  color: #fff;
+  padding: 16px;
+  margin-right: -32px;
+  font-size: 16px;
+  border-radius: 8px;
+  text-align: right;
+  height: 60px;
+}
