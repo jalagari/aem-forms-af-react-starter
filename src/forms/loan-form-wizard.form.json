@@ -54,6 +54,7 @@
           },
           "items": [
             {
+              ":type": "custom:slider",
               "name": "amount",
               "fieldType": "number-input",
               "required": true,
@@ -75,6 +76,7 @@
               }
             },
             {
+              ":type": "custom:slider",
               "name": "duration",
               "fieldType": "number-input",
               "required": true,
@@ -87,6 +89,7 @@
               }
             },
             {
+              ":type": "custom:slider",
               "name": "rateOfInterest",
               "default": 8,
               "maximum": 12,
